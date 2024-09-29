@@ -1,0 +1,47 @@
+.motivation-info{
+  border-style: solid;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: "IBM Plex Mono", monospace;
+  width: 725px;
+  margin-left: auto;
+  margin-right: auto;
+	background-color:#DEB986;
+}
+
+.motivation-info h1{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.time-frame-cont{
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:20px;
+	padding-top:20px;
+	padding-bottom:10px;
+  border-style: dashed;
+	background-color:#e8b9ab;
+}
+
+.time-frame-cont h3{
+  text-align: center;  
+}
+
+.hello{
+	padding-top:10px;
+	padding-bottom:10px;
+  font-size:large
+}
+
+.omg{
+	margin-top:10px;
+	margin-left:20px;
+}
+
+
+#motivate-img{
+  height: 25%;
+  margin-left: 200px;
+  margin-right: auto;
+}

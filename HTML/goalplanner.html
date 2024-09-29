@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src=JS/motivation.js></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../CSS/goalplanner.css" rel="stylesheet" type="text/css" />
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <!-- Include all` compiled plugins (below), or include individual files as needed -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+    crossorigin="anonymous"></script>
+  <!-- Mobile Disable Scaling -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <title>Planner</title>
+</head>
+
+<body>
+
+  <!-- Page Header -->
+  <header class="first-nav">
+    <div class="brand-name"><a href="../index.html">CodeCatalyst</a></div>
+    <nav class="main-nav">
+      <ul class="main-nav__items">
+        <li class="main-nav__item"><a href="../HTML/studentResources.html">Find Resources</a></li>
+        <li class="main-nav__item"><a href="../HTML/motivationCenter.html">Find Motivation</a></li>
+        <li class="main-nav__item"><a href="../HTML/goalplanner.html">Planner</a></li>
+      </ul>
+    </nav>
+  </header>    
+
+
+  <!--   Actual Site -->
+  </br>
+  <div>
+    <h1 class="center margin1 font">📜 Plan your goals on our checklist! 📜</h1>
+  </div>
+
+  <input class="fontSizeCheck borderRadiusCheck margin1 font"
+    placeholder="Type in your goal and press the button on the right to add into your checklist!" type="text"
+    id="inputField">
+  <button class="center fontSizeCheck borderRadiusCheck font" id="BtnAdd">Click to add to list!</button>
+  </br>
+
+  <div class="list">
+
+    <div class="form-check margin1 borderRadiusCheck font">
+      <input class="form-check-input borderRadiusCheck fontSizeCheck margin1" type="checkbox" value=""
+        id="flexCheckDefault">
+      <label class="form-check-label fontSizeCheck" for="flexCheckDefault">
+        checkbox 1
+      </label>
+    </div>
+
+    <div class="form-check margin1 borderRadiusCheck font">
+      <input class="form-check-input borderRadiusCheck fontSizeCheck margin1" type="checkbox" value=""
+        id="flexCheckDefault">
+      <label class="form-check-label fontSizeCheck" for="flexCheckDefault">
+        checkbox 2
+      </label>
+    </div>
+
+  </div>
+
+  <table>
+    <thead>
+
+    </thead>
+    <tbody>
+
+
+    </tbody>
+  </table>
+
+
+  <script src="../JS/Planner.js"></script>
+</body>
+
+</html>
